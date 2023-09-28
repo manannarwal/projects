@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<div class="page-container">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Landing Page</label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#contact">Contact</a></li>   
+        </ul>
+      </nav>
+
+    </div>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <br><br><br><br><br><br>
+            <h2>Welcome to my GitHub Landing Page</h2>
+            <p>Explore My Projects !!!</p>
+            <a href="https://manannarwal.github.io/CODSOFT/portfolio/" class="btn" target="_blank">Portfolio</a>
+            <a href="https://manannarwal.github.io/CODSOFT/calculator/" class="btn" target="_blank">Calclator</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <img src="icon1.png" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+            <img src="icon2.png" alt="Feature 2">
+            <h3>Feature 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+            <img src="icon3.png" alt="Feature 3">
+            <h3>Feature 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
